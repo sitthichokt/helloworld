@@ -1,17 +1,11 @@
 {
-  "name": "yourname/helloworld",
-  "description": "My first PHP Composer package",
-  "type": "library",
-  "autoload": {
-    "psr-4": {
-      "HelloWorld\\": "src/"
-    }
-  },
-  "authors": [
+  "repositories": [
     {
-      "name": "Your Name",
-      "email": "you@example.com"
+      "type": "vcs",
+      "url": "https://github.com/sitthichokt/helloworld"
     }
   ],
-  "require": {}
+  "require": {
+    "sitthichokt/helloworld": "dev-master"
+  }
 }
