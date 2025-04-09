@@ -1,0 +1,17 @@
+{
+  "name": "yourname/helloworld",
+  "description": "My first PHP Composer package",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "HelloWorld\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "you@example.com"
+    }
+  ],
+  "require": {}
+}
